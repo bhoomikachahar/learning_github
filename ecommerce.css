@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.height {
+  height: 35px;
+}
+.hov {
+  color: black;
+}
+.hov:hover {
+  color: rgba(0, 128, 0, 0.785) !important;
+}
+.img1 {
+  height: 70vh;
+}
+.colimg1{
+    background-color:#EFEFEF;
+}
+.mt{
+    padding-top: 150px;
+}
+.padding1{
+    padding-left: 150px;
+}
+.marginbutton{
+  margin-left: 80px;
+}
+.bgcard{
+  background-color: rgba(178, 178, 201, 0.778);
+}
+.background1{
+  background-color:  #20044eee;
+}
+.margin5{
+  margin-top: 100px;
+}
+.ms2{
+  margin-left: 6rem;
+}
+.cardhover:hover{
+  background-color: green;
+  color: white;
+}
+.w1{
+  width: 80px;
+  margin-left: 15rem;
+}
+.color1{
+  background-color: rgba(98, 98, 220, 0.279);
+}
+.height3{
+  height: 10rem;
+}
+
+/* contact css */
+.vr {
+
+  font-size: 18px;
+}
+
+.vr:hover {
+  color: green !important;
+}
+
+.cir {
+  height: 25px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: #e9eef5;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -28px;
+  margin-left: -18px;
+}
+
+.cr {
+  height: 25px;
+  width: 38px;
+  border-radius: 45%;
+  background-color: #e9eef5;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -28px;
+  margin-left: -35px;
+}
+
+.fo {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.clr {
+  background-color: #e9eef5;
+}
+
+.img{
+  background-image: url(image/WhatsApp\ Image\ 2024-02-12\ at\ 15.52.28_58d7d6f4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.inp{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border:1px solid gray;
+}
+
+.inp::placeholder{
+  padding: 20px;
+}
+input{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border:1px solid gray;
+}
+.input1{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border:1px solid gray;
+  height: 10rem;
+}
+/* shop css */
+.mainimg:hover {
+  box-shadow: 0px 0px 5px .1px rgb(205, 189, 189);
+  cursor: pointer;
+}
+
+/* @media(max-width:750px){
+  .mainimg{
+            
+  }
+} */
+
+.ankit {
+  margin-top: 13rem;
+}
+
+.ankitimg {
+  margin-top: 5rem;
+}
+
+@media(max-width : 750px) {
+  .ankit {
+      margin-top: 0rem;
+  }
+
+  .ankitimg {
+      margin-top: 0rem;
+  }
+}
+
+.lo {
+  animation-name: l;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes l {
+
+  /* to{
+transform: translateX(0%);
+} */
+  from {
+      transform: translateX(100%);
+  }
+
+}
+
+.hover:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.hover12:hover {
+  background-color: #69bb7e;
+  transition: 1s;
+}
+
+.back:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+.back i {
+  font-weight: 300;
+}

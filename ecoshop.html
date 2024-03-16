@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="shop.css">
+    <title>Zay - Shop</title>
+
+</head>
+
+<body>
+   <!-- navbar -->
+    <!--  first header -->
+
+    <div class="container-fluid bg-dark height">
+      <div class="row d-flex">
+        <div class="column col-sm-6 col-md-6 col-lg-6">
+          <h6 class="text-light">
+            <i class="fa-solid fa-envelope ps-5 pt-2"> </i> info@company.com
+            <i class="fa-solid fa-phone ps-2"></i> 010-020-0340
+          </h6>
+        </div>
+
+        <div class="column col-sm-6 col-md-6 col-lg-6 ">
+          <div class="text-end">
+            <i class="fa-brands fa-facebook-f text-light pe-2 pt-2"></i>
+          <i class="fa-brands fa-square-instagram text-light pe-2 pt-2"></i>
+          <i class="fa-brands fa-twitter text-light pe-2 pt-2"></i>
+          <i class="fa-brands fa-linkedin text-light pe-4 pt-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  second header -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1 text-success fw-bold ps-5" href="#">Zay</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item d-flex text-center">
+                <a class="nav-link active fs-5 fw-light pe-5 hov" aria-current="page" href="ecommercehome.html">Home</a>
+                <a class="nav-link active fs-5 fw-light pe-5  hov" aria-current="page" href="ecoabout.html">About</a>
+                <a class="nav-link active fs-5 fw-light pe-5 hov" aria-current="page" href="ecoshop.html">Shop</a>
+                <a class="nav-link active fs-5 fw-light pe-5 hov" aria-current="page" href="ecocontact.html">Contact</a>
+                
+              </li>
+              
+            </ul>
+
+            
+                    <div class="column me-5">
+                        <i class="fa-solid fa-magnifying-glass me-3"></i>
+                    <i class="fa-solid fa-cart-shopping me-3"><span class="position-absolute top-1 left-100 translate-middle badge rounded-pill bg-light text-dark ">7</span></i></i>
+                    <i class="fa-solid fa-user me-3 "><span class="position-absolute top-1 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span></i>
+                    </div>
+                
+            
+          </div>
+        </div>
+      </nav>
+
+    <div class="container     py-5">
+        <div class="row">
+
+            <div class="col-lg-3">
+                <h1 class="h2 pb-4">Categories</h1>
+                <ul class="list-unstyled templatemo-accordion">
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Gender
+                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul class="collapse show list-unstyled pl-3" style="display: none;">
+                            <li><a class="text-decoration-none" href="#">Men</a></li>
+                            <li><a class="text-decoration-none" href="#">Women</a></li>
+                        </ul>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Sale
+                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul id="collapseTwo" class="collapse list-unstyled pl-3" style="display: none;">
+                            <li><a class="text-decoration-none" href="#">Sport</a></li>
+                            <li><a class="text-decoration-none" href="#">Luxury</a></li>
+                        </ul>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Product
+                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul id="collapseThree" class="collapse list-unstyled pl-3" style="display: none;">
+                            <li><a class="text-decoration-none" href="#">Bag</a></li>
+                            <li><a class="text-decoration-none" href="#">Sweather</a></li>
+                            <li><a class="text-decoration-none" href="#">Sunglass</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-inline shop-top-menu pb-3 pt-1">
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">All</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Men's</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none" href="#">Women's</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 pb-4">
+                        <div class="d-flex">
+                            <select class="form-control">
+                                <option>Featured</option>
+                                <option>A to Z</option>
+                                <option>Item</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img onclick="add()" class="mainimg  card-img rounded-0 img-fluid"
+                                    src="image/shop_01.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class=" card-img rounded-0 img-fluid"
+                                    src="image/shop_02.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src="image/shop_03.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src="image/shop_04.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src="image/shop_05.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src="image/shop_06.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/shop_08.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src=" https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/shop_08.jpg">
+
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid"
+                                    src="	https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/shop_09.jpg">
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                </ul>
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div div="row">
+                    <ul class="pagination pagination-lg justify-content-end">
+                        <li class="page-item disabled">
+                            <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="#"
+                                tabindex="-1">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark"
+                                href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="#">3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div style="background-color: #e9eef5; width: 100%;height: 30rem;">
+        <div class="container ">
+            <div class="row">
+                <div class="col mt-5">
+                    <center>
+                        <h1>Our Brands</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod Lorem ipsum
+                            dolor sit amet.</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container  mt-5">
+            <div class="row">
+                <div class="col mt-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="col carousel-item active d-flex lo" style="overflow: hidden;">
+                                <img style="height: 10rem;"
+                                    src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_02.png"
+                                    class="d-block w-10" alt="...">
+                                <img style="height: 10rem;"
+                                    src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_01.png"
+                                    class="d-block w-10" alt="...">
+                                <img style="height: 10rem;"
+                                    src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_03.png"
+                                    class="d-block w-10" alt="...">
+                                <img style="height: 10rem;"
+                                    src="https://templatemo.com/templates/templatemo_559_zay_shop/assets/img/brand_03.png"
+                                    class="d-block w-10" alt="...">
+
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main" style="background-color: #212934; color: white;">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-4  col-sm-12">
+                    <h1 class="mt-5  " style="color: green;">Zay Shop</h1>
+
+                    <div class="mt-5" style="display: flex; text-align: center;">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p> 123 Consectetur at ligula 10660</p>
+                    </div>
+                    <div style="display: flex; text-align: center;">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class=" hover">1234567890</p>
+                    </div>
+                    <div style="display: flex; text-align: center;">
+                        <i class="fa-solid fa-message"></i>
+                        <p class="hover">info@company.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4  col-sm-12">
+                    <h1 class="mt-5  ">Products</h1>
+                    <p class="mt-5  hover">Luxury</p>
+                    <p class="hover">Sport Wear</p>
+                    <p class="hover">Men's Shoes</p>
+                    <p class="hover">Women's Shoes</p>
+                    <p class="hover">Popular Dress</p>
+                    <p class="hover">Gym Accessories</p>
+                    <p class="hover">Sport Shoes</p>
+                </div>
+                <div class="col-lg-4 col-md-4  col-sm-12">
+                    <h1 class="mt-5">Further Info</h1>
+                    <p class="hover">Home</p>
+                    <p class="hover">About Us</p>
+                    <p class="hover">Shop Locations</p>
+                    <p class="hover">FAQs</p>
+                    <p class="hover">Contact</p>
+                </div>
+                <center style="width: 100%; border: 1px dotted black;"></center>
+
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12  " style="display: flex; justify-content: space-evenly;">
+                    <div class="back" style="width: 13%; height: 3.3rem;border-radius: 50%; border: 1px solid black;">
+                        <i style="margin-left: 0.7rem; margin-top: 1.5rem;" class="fa-brands fa-facebook-f fa-2xl"></i>
+                    </div>
+                    <div class="back" style="width: 13%; height: 3.3rem;border-radius: 50%; border: 1px solid black;">
+                        <i style="margin-left: 0.7rem; margin-top: 1.5rem;" class="fa-brands fa-instagram fa-2xl"></i>
+                    </div>
+                    <div class="back" style="width: 13%; height: 3.3rem;border-radius: 50%; border: 1px solid black;">
+                        <i style="margin-left: 0.7rem; margin-top: 1.5rem;" class="fa-brands fa-twitter fa-2xl"></i>
+                    </div>
+                    <div class="back" style="width: 13%; height: 3.3rem;border-radius: 50%; border: 1px solid black;">
+                        <i style="margin-left: 0.7rem; margin-top: 1.5rem;" class="fa-brands fa-linkedin fa-2xl"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12  d-flex  mt-5">
+                    <input class="form-control   " ;
+                        style="background-color: #212934; width: 100%; border: 1px solid whitesmoke;" type="search"
+                        placeholder="Email address" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div style="background-color: #1d242d; color: white;">
+        <div class="container ">
+            <div class="row">
+                <div class="col  mt-5">
+                    <p style="margin-left: 3rem;">Copyright © 2021 Company Name | Designed by <span class="hover"
+                            style="text-decoration: underline;">TemplateMo</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
